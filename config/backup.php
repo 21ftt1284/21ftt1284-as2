@@ -110,7 +110,7 @@ return [
             /*
              * The filename prefix used for the backup zip file.
              */
-            'filename_prefix' => '',
+            'filename_prefix' => 'as2_',
 
             /*
              * The disk names on which the backups will be stored.
@@ -129,7 +129,7 @@ return [
          * The password to be used for archive encryption.
          * Set to `null` to disable encryption.
          */
-        'password' => env('BACKUP_ARCHIVE_PASSWORD'),
+        'password' => env('21ftt1284'),
 
         /*
          * The encryption algorithm to be used for archive encryption.
