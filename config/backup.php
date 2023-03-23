@@ -80,7 +80,7 @@ return [
              * For a complete list of available customization options, see https://github.com/spatie/db-dumper
              */
             'databases' => [
-                'mysql',
+                'sqlite',
             ],
         ],
 
@@ -110,7 +110,7 @@ return [
             /*
              * The filename prefix used for the backup zip file.
              */
-            'filename_prefix' => 'as2_',
+            'filename_prefix' => 'as2-',
 
             /*
              * The disk names on which the backups will be stored.
@@ -129,7 +129,7 @@ return [
          * The password to be used for archive encryption.
          * Set to `null` to disable encryption.
          */
-        'password' => env('21ftt1284'),
+        'password' => env('BACKUP_ARCHIVE_PASSWORD'),
 
         /*
          * The encryption algorithm to be used for archive encryption.
