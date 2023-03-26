@@ -38,6 +38,7 @@
                     </svg> -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <h1 style="color: red">Done</h1>
 =======
                     <h1 style="color: red">Changed</h1>
@@ -45,6 +46,9 @@
 =======
                     <h1 style="color: red">Changed</h1>
 >>>>>>> parent of e36cc87 (21FTT1284)
+=======
+                    <h1 style="color: red">AS2</h1>
+>>>>>>> parent of ed522df (Done)
                 </div>
 
                 <div class="mt-16">
